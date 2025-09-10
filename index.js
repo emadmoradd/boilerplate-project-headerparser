@@ -5,7 +5,7 @@ const app = express();
 const cors = require("cors");
 app.use(cors());
 
-// serve the homepage (اختياري)
+// serve the homepage 
 app.get("/", (req, res) => {
   res.send("Request Header Parser Microservice");
 });
